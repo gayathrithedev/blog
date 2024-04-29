@@ -18,6 +18,7 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 
+
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
 	TwitterIcon,
@@ -29,7 +30,10 @@ import {
 
 import { Logo } from "@/components/icons";
 
+
+
 export const Navbar = () => {
+
 	const searchInput = (
 		<Input
 			aria-label="Search"
