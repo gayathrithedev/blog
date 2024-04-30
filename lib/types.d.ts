@@ -12,6 +12,8 @@ export type PostMetadata = {
   title: string;
   subtitle?: string;
   slug: string;
+  url: string;
+  views: number;
   content: {
     text: string;
   };

@@ -44,6 +44,8 @@ export async function getPosts({ first = 9, pageParam = "" }: GetPostsArgs) {
               title
               subtitle
               slug
+              url
+              views
               content {
                 text
               }

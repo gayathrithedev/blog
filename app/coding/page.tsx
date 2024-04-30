@@ -22,10 +22,7 @@ export default async function CodingPage() {
 	});
 	return (
 		<HydrationBoundary state={dehydrate(queryClient)}>
-			<div>
-				<h1 className={title({color: 'cyan'})}>Read my latest articles...</h1>
-				<Posts />
-			</div>
+			<Posts />
 		</HydrationBoundary>
 		
 	);
